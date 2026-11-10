@@ -1,0 +1,17 @@
+# The build context is frameworks/navree. BuildKit reads this file (named after
+# the Dockerfile) instead of a .dockerignore.
+#
+# Allow-list: the manifest, the lock file, the source and the configuration.
+*
+!Cargo.toml
+!Cargo.lock
+!src
+!config
+
+# Never needed inside the allowed directories either.
+**/target
+**/storage
+**/*.db
+**/*.db-shm
+**/*.db-wal
+**/.env

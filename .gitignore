@@ -1,0 +1,16 @@
+# Rust build output
+target/
+
+# Smoke runs and build logs are local
+/results/smoke/
+/results/logs/*.build.log
+
+# Local secrets
+.env
+.env.*
+*.token
+
+# Local editor files
+.vscode/
+.idea/
+*.swp

@@ -1,0 +1,3 @@
+[
+  {"name":"navree","label":"Navree","language":"Rust","category":"full-stack","context":"frameworks/navree","dockerfile":"frameworks/navree/Dockerfile"}
+]
